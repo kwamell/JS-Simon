@@ -71,7 +71,6 @@ function checkAnswer(currentLevel) {
         
 
         setTimeout(function () {
-            alert("Game Over! Press ok to Restart");
             location.reload(true);
 
         }, 3500)
