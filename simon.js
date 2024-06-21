@@ -71,7 +71,7 @@ function checkAnswer(currentLevel) {
         setTimeout(function () {
             location.reload(true);
 
-        }, 1500)
+        }, 3500)
         // startOver();
     }
 }
