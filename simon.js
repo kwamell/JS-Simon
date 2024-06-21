@@ -68,6 +68,8 @@ function checkAnswer(currentLevel) {
         }, 200);
         $("#level-title").text("Game Over! You ended at " + level + ". Press Any Key to Restart");
 
+        alert("Game Over! Press ok to Restart");
+
         setTimeout(function () {
             location.reload(true);
 
