@@ -75,13 +75,10 @@ function checkAnswer(currentLevel) {
             $("body").removeClass("game-over");
         }, 200);
         $("#level-title").text("Game Over! You ended at " + level + ". Press Any Key to Restart");
-
-        
-
         setTimeout(function () {
             location.reload(true);
 
-        }, 3500)
+        }, 1500)
         // startOver();
     }
 }
